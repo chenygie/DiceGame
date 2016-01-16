@@ -15,6 +15,7 @@
 		746443531C492B1E002FD082 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 746443511C492B1E002FD082 /* LaunchScreen.storyboard */; };
 		7464435E1C492B1E002FD082 /* DiceTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7464435D1C492B1E002FD082 /* DiceTests.m */; };
 		746443691C492B1E002FD082 /* DiceUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 746443681C492B1E002FD082 /* DiceUITests.m */; };
+		746443771C493331002FD082 /* Dice60-2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 746443761C493331002FD082 /* Dice60-2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		746443641C492B1E002FD082 /* DiceUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DiceUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		746443681C492B1E002FD082 /* DiceUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DiceUITests.m; sourceTree = "<group>"; };
 		7464436A1C492B1E002FD082 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		746443761C493331002FD082 /* Dice60-2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Dice60-2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 		746443421C492B1E002FD082 /* Dice */ = {
 			isa = PBXGroup;
 			children = (
+				746443761C493331002FD082 /* Dice60-2x.png */,
 				746443461C492B1E002FD082 /* AppDelegate.h */,
 				746443471C492B1E002FD082 /* AppDelegate.m */,
 				746443491C492B1E002FD082 /* ViewController.h */,
@@ -245,6 +248,7 @@
 			files = (
 				746443531C492B1E002FD082 /* LaunchScreen.storyboard in Resources */,
 				746443501C492B1E002FD082 /* Assets.xcassets in Resources */,
+				746443771C493331002FD082 /* Dice60-2x.png in Resources */,
 				7464434E1C492B1E002FD082 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
