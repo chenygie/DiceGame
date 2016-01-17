@@ -24,13 +24,6 @@
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MW1-ao-CW2">
-                                <rect key="frame" x="173" y="429" width="75" height="58"/>
-                                <state key="normal" title="开始投🎲"/>
-                                <connections>
-                                    <action selector="beginPlay:" destination="BYZ-38-t0r" eventType="touchUpInside" id="GB4-32-Czg"/>
-                                </connections>
-                            </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="1" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fOS-dW-YzC">
                                 <rect key="frame" x="255" y="183" width="71" height="71"/>
                                 <color key="backgroundColor" red="0.98530453443527222" green="1" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -38,6 +31,13 @@
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MW1-ao-CW2">
+                                <rect key="frame" x="168" y="430" width="75" height="58"/>
+                                <state key="normal" title="开始投🎲"/>
+                                <connections>
+                                    <action selector="beginPlay:" destination="BYZ-38-t0r" eventType="touchUpInside" id="GB4-32-Czg"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
@@ -48,7 +48,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="147" y="295"/>
+            <point key="canvasLocation" x="104" y="65"/>
         </scene>
     </scenes>
 </document>
